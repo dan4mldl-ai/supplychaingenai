@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#f0f8ff" stroke="#2c3e50" stroke-width="4"/>
+  
+  <!-- Supply Chain Elements -->
+  <g fill="#3498db" stroke="#2c3e50" stroke-width="2">
+    <!-- Factory -->
+    <rect x="30" y="80" width="40" height="30" fill="#e74c3c"/>
+    <rect x="40" y="60" width="5" height="20" fill="#e74c3c"/>
+    <rect x="55" y="60" width="5" height="20" fill="#e74c3c"/>
+    
+    <!-- Warehouse -->
+    <rect x="130" y="80" width="40" height="30" fill="#3498db"/>
+    <polygon points="130,80 150,60 170,80" fill="#3498db"/>
+    
+    <!-- Connection Lines -->
+    <path d="M70,95 L130,95" stroke="#2c3e50" stroke-width="3" stroke-dasharray="5,3"/>
+    
+    <!-- Truck -->
+    <rect x="85" y="85" width="30" height="15" fill="#f1c40f"/>
+    <rect x="75" y="90" width="10" height="10" fill="#f1c40f"/>
+    <circle cx="80" cy="100" r="5" fill="#34495e"/>
+    <circle cx="110" cy="100" r="5" fill="#34495e"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="140" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">SCM System</text>
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Supply Chain Management</text>
+</svg>
